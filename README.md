@@ -39,14 +39,24 @@ Press refresh repositories to see your new custom repository.
 Then, under `custom_actions` settings, press `Sync` to sync the repository.
 
 ![Sync repository](/img/sync.png)
+![Sync confirmation](/img/sync-confirm.png)
 
-> [!NOTE]
+> [!INFO]
 > You might encounter an error the first time you sync the repository.
-> You can safetly ignore this error and try to sync again.
+> You can safely ignore this error and try to sync again.
 
 6. View custom actions
 
-Go to the `Actions` page and filter by `Origin`.
-You should see all the pre v0.22 actions and integrations.
+> ![NOTE]
+> If you're still on v0.22.x and under, `integrations.` namespaced actions will be still visible under `tracecat_registry`.
+> After updating to v0.23, you should see the `integrations.` namespaced actions under the custom git repo origin.
+
+Go to the `Actions` page and filter by `Origin` to view synced actions.
 
 ![Actions](/img/actions.png)
+
+
+7. 🎉 That's it!
+
+Feel free to remove or add your own custom Python UDFs actions and YAML template actions to the registry.
+Just push to your git repo, press sync in Tracecat registry, and updates will show up immediately.
