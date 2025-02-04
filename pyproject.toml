@@ -41,13 +41,8 @@ dependencies = [
 ]
 dynamic = ["version"]
 
-[project.urls]
-Homepage = "https://tracecat.com"
-Documentation = "https://docs.tracecat.com"
-Repository = "https://github.com/TracecatHQ/tracecat"
-
 [tool.hatch.version]
-path = "custom_registry/__init__.py"
+path = "custom_actions/__init__.py"
 
 [tool.mypy]
 strict = true
