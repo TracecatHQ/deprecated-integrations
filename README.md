@@ -38,7 +38,7 @@ Go to the `Registry` page and select `Repositories.`
 Press refresh repositories to see your new custom repository.
 Then, under `custom_actions` settings, press `Sync` to sync the repository.
 
-![Sync repository](/img/sync-repo.png)
+![Sync repository](/img/sync.png)
 
 > [!NOTE]
 > You might encounter an error the first time you sync the repository.
