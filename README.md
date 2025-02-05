@@ -1,6 +1,6 @@
 # Deprecated Registry
 
-> [!NOTE]
+> [!IMPORTANT]
 > Integrations and actions in this repository are deprecated as of v0.23.
 > We recommend replacing all actions under the `integrations.` namespace with new actions under the `tools.` namespace.
 
@@ -9,10 +9,9 @@ You can also use this as a template to add your own custom registry to Tracecat.
 
 ## Getting Started
 
-1. Clone the repository.
-```bash
-git clone git@github.com:TracecatHQ/deprecated-integrations.git
-```
+1. Create a new repo from the template
+
+<img width="905" alt="Screenshot 2025-02-05 at 1 24 59 PM" src="https://github.com/user-attachments/assets/5a5f532b-857f-4ed3-af17-c91b84f1a65a" />
 
 2. Configure remote repo URL
 
@@ -41,13 +40,9 @@ Then, under `custom_actions` settings, press `Sync` to sync the repository.
 ![Sync repository](/img/sync.png)
 ![Sync confirmation](/img/sync-confirm.png)
 
-> [!INFO]
-> You might encounter an error the first time you sync the repository.
-> You can safely ignore this error and try to sync again.
-
 6. View custom actions
 
-> ![NOTE]
+> [!NOTE]
 > If you're still on v0.22.x and under, `integrations.` namespaced actions will be still visible under `tracecat_registry`.
 > After updating to v0.23, you should see the `integrations.` namespaced actions under the custom git repo origin.
 
