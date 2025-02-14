@@ -30,3 +30,8 @@ dynamic = ["version"]
 
 [tool.hatch.version]
 path = "custom_actions/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["custom_actions"]
+# Include YAML templates in pip package
+include = ["/custom_actions", "/custom_actions/**/*.yml"]
